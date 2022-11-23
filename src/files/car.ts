@@ -22,7 +22,7 @@ const carData: ICar = {
   country: "Sweden",
 };
 
-const environment = process.env.NODE_ENV === "production" ? 'Production-mode' : 'Development-mode'
+const environment = process.env.NODE_ENV === "production" ? 'Production-mode-running' : 'Development-mode-running'
 
 const carPageUI = `
   <h1 style="font-size:1rem">${environment}</h1>
@@ -50,3 +50,4 @@ const carPageUI = `
 
 
 export default carPageUI
+
